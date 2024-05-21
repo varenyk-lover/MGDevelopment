@@ -10,26 +10,9 @@ body, main, a, h2, ul, footer {
 }
 
 
-
 main {
     padding: 30px;
     text-align: left;
-}
-
-
-.loudspeaker-icon:hover .loudspeaker-icon-border {
-    fill: gray;
-    opacity: 20%;
-}
-
-.ecommerce-icon:hover .ecommerce-icon-border {
-    fill: gray;
-    opacity: 20%;
-}
-
-.application-icon:hover .application-icon-border {
-    fill: gray;
-    opacity: 20%;
 }
 
 
@@ -44,14 +27,12 @@ main {
 }
 
 
-
 @media screen and (max-width: 992px) {
     .card-container {
         width: 50%;
         justify-content: space-around;
     }
 }
-
 
 
 .card {
@@ -62,98 +43,13 @@ main {
     border-style: solid;
 }
 
-.size-s {
-    height: 527px;
-}
 
-.size-m {
-    height: 545px;
-}
-
-.size-l {
-    height: 587px;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.display-right {
-    align-self: flex-end;
-}
-
-.icon {
-    transition: opacity 0.3s ease;
-}
-
-.icon:hover {
-    opacity: 0.5;
-}
-
-.door-icon {
-    width: 110px;
-    height: 100px;
-}
-
-
-.electrical-icon {
-    width: 111px;
-    height: 100px;
-}
-
-
-.furniture-icon {
-    width: 123px;
-    height: 100px;
-}
-
-.home-icon {
-    width: 116px;
-    height: 100px;
-}
-
-.installation-icon {
-    width: 98px;
-    height: 100px;
-}
-
-.outdoor-icon {
-    width: 94px;
-    height: 100px;
-}
-
-.paint-icon {
-    width: 91px;
-    height: 100px;
-}
-
-.picture-icon {
-    width: 117px;
-    height: 100px;
-}
-
-.plumbing-icon {
-    width: 94.15px;
-    height: 100px;
-}
-
-
-.text-box {
-    display: flex;
-    flex-direction: column;
-}
-
-.unique-size {
-    height: 288px;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    width: 366px;
+/*here*/
+@media screen and (max-width: 480px) {
+    .card {
+        padding: 10px;
+        width: auto;
+    }
 }
 
 .card-green {
@@ -172,10 +68,201 @@ ul {
     border-color: #F02E2C;
 }
 
+.size-s {
+    height: 527px;
+}
+
+.size-m {
+    height: 545px;
+}
+
+.size-l {
+    height: 587px;
+}
+
+.unique-size {
+    height: 288px;
+}
+
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .size-s, .size-m, .size-l, .unique-size {
+        height: auto;
+    }
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .flex-column {
+        gap: 10px;
+    }
+}
+
+.display-right {
+    align-self: flex-end;
+}
+
+.icon {
+    transition: opacity 0.3s ease;
+}
 
 .icon:hover {
+    opacity: 0.5;
     cursor: pointer;
 }
+
+.door-icon {
+    width: 110px;
+    height: 100px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .door-icon {
+        width: 90px;
+        height: 80px;
+    }
+}
+
+
+.electrical-icon {
+    width: 111px;
+    height: 100px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .electrical-icon {
+        width: 91px;
+        height: 80px;
+    }
+}
+
+
+.furniture-icon {
+    width: 123px;
+    height: 100px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .furniture-icon {
+        width: 103px;
+        height: 80px;
+    }
+}
+
+.home-icon {
+    width: 116px;
+    height: 100px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .home-icon {
+        width: 96px;
+        height: 80px;
+    }
+}
+
+
+.installation-icon {
+    width: 98px;
+    height: 100px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .installation-icon {
+        width: 78px;
+        height: 80px;
+    }
+}
+
+
+.outdoor-icon {
+    width: 94px;
+    height: 100px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .outdoor-icon {
+        width: 74px;
+        height: 80px;
+    }
+}
+
+
+.paint-icon {
+    width: 91px;
+    height: 100px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .paint-icon {
+        width: 71px;
+        height: 80px;
+    }
+}
+
+
+.picture-icon {
+    width: 117px;
+    height: 100px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .picture-icon {
+        width: 97px;
+        height: 80px;
+    }
+}
+
+.plumbing-icon {
+    width: 94.15px;
+    height: 100px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    .plumbing-icon {
+        width: 74.15px;
+        height: 80px;
+    }
+}
+
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 366px;
+}
+
+/*here*/
+@media screen and (max-width: 480px) {
+    ul {
+        width: 280px;
+    }
+}
+
 
 h2 {
     font-size: 36px;
@@ -185,18 +272,26 @@ h2 {
     width: 380px;
 }
 
+/*here*/
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 33px;
+        padding-bottom: 14px;
+        width: auto;
+    }
+}
+
+
 li, a {
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
 }
 
-.box-big-icon {
-    padding: 12px 0;
-    width: 64px;
-    height: 64px;
-    border: 1px solid #E5EAF4;
-    border-radius: 16px;
-    text-align: center;
+/*here*/
+@media screen and (max-width: 480px) {
+    li, a {
+        font-size: 20px;
+        line-height: 26px;
+    }
 }
-

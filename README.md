@@ -1,0 +1,2 @@
+-Сreate a page according to the layout 
+-Additionally adapt it for tablets and mobile phones
